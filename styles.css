@@ -1,10 +1,30 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
     
 }
 h1 {
-    color: aqua;
+    display: flex;
+    align-content: center;
+    color: black;
+}
+.container:hover{
+    display: flex;
+    color: brown;
+}
+.list{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    background-color: aquamarine;
+    margin: 2%;
     
-    
+    border-radius: 25px;
+}
+.list a{
+    background-color: bisque;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: center;
 }
